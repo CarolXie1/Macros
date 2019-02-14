@@ -1,0 +1,282 @@
+.footer {
+    background-color: #f5f5f5;
+}
+
+.footer-content {
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: left;
+    height:auto;
+    margin-left: 20px;
+    width:100%;
+}
+
+.menu-content {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    margin-bottom: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+    margin: 10px;
+    font-family: Brandon Grotesque Bold, Arial, sans-serif;
+}
+
+.questions {
+    margin: 40px auto 20px;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.footer-text {
+    font-size: 100%;
+    font-family: Brandon Grotesque Bold, Arial, sans-serif;
+    color: #525d71;
+    margin: 0;
+    padding: 0;
+}
+
+.soicalicon ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.soicalicon li {
+    margin: 5px;
+}
+
+.icon_email {
+    width:40px;
+    height:40px;
+}
+
+.icon_FB {
+    width:40px;
+    height:40px;
+}
+
+.icon_Ins {
+    width:40px;
+    height:40px;
+}
+
+.community {
+    margin: 40px auto 10px;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:60%;
+}
+
+.community-text {
+    margin: 10px auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+}
+
+.flex-item {
+    margin: 10px auto;
+}
+
+.flex-item input {
+    width: 280px;
+    margin: auto;
+}
+
+footer h4 {
+    color: #FE8B36;
+}
+
+.flex-item h5 {
+    font-size: 120%;
+    text-align: center;
+    font-family: Brandon Grotesque Regular, Arial, sans-serif;
+    margin: 0 auto 10px;
+    padding: 0;
+}
+
+.footer-bottom div {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: Brandon Grotesque Regular, Arial, sans-serif;
+    margin: 5px auto 0;
+    width:100%;
+}
+
+.socialicon li {
+    list-style-type: none;
+    display: inline;
+}
+
+.socialicon ul {
+    list-style-type: none;
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    footer h4 {
+        font-size: 130%;
+    }
+
+    .footer-text {
+        font-size: 70%;
+    }
+
+    .questions {
+        width:80%;
+    }
+    .icon_email {
+        width:30px;
+        height:30px;
+    }
+    
+    .icon_FB {
+        width:30px;
+        height:30px;
+    }
+    
+    .icon_Ins {
+        width:30px;
+        height:30px;
+    }  
+
+    .flex-item h5 {
+    font-size: 100%;
+    }
+
+    .flex-item button {
+        margin:10px auto;
+    }
+
+} 
+
+@media screen and (max-width:767px) and (min-width:480px) {
+    .menu {
+        margin: 0;
+    }
+    .menu img {
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .menu-content {
+        flex-direction: row;   
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questions {
+        margin: 20px auto;
+    }
+    .community {
+        margin:0 auto 10px;
+    }    
+
+    .icon_email {
+        width:40px;
+        height:40px;
+    }
+    
+    .icon_FB {
+        width:40px;
+        height:40px;
+    }
+    
+    .icon_Ins {
+        width:40px;
+        height:40px;
+    }
+
+    footer h4 {
+        font-size: 140%;
+        font-family: Brandon Grotesque Medium, Arial, sans-serif;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .menu {
+        margin: 0;
+    }
+    .menu img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-content {
+        flex-direction: row;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .questions {
+        margin: 20px auto;
+    }
+    .community {
+        margin:0 auto 10px;
+    }    
+
+    .icon_email {
+        width:50px;
+        height:50px;
+    }
+    
+    .icon_FB {
+        width:50px;
+        height:50px;
+    }
+    
+    .icon_Ins {
+        width:50px;
+        height:50px;
+    }  
+
+    footer h4 {
+        font-size: 140%;
+        font-family: Brandon Grotesque Medium, Arial, sans-serif;
+    }
+
+    .footer-text {
+        font-size: 90%;
+    }
+}

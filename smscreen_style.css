@@ -1,0 +1,303 @@
+@media screen and (max-width:767px){
+    .banner {
+    background:url('Images/Mobile_top_banner.jpg') center center no-repeat;
+    background-size:cover;
+    padding-top: 180px;
+    padding-bottom: 130px;
+    margin-top: 67px;
+  }
+
+  .banner-content {
+    justify-content: space-around;
+    max-width: 319px;
+    height: 270px;
+  }
+
+  .section-md {
+    padding: 30px 10px;
+  }
+
+  .icon {
+    max-width: 250px;
+  }
+  
+  .md-center {
+    flex-direction: column;
+  }
+
+  .section-box {
+    background:url('Images/Mobile_box_banner.jpg') center center no-repeat;
+    background-size:cover;
+    padding-top:calc(100% + 300px);
+  }
+
+  .box-content { 
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding-top:30px;
+    padding-right: 0; 
+  }
+
+  .box-content h2 {
+    font-weight: 600;
+  }
+
+  .box-text {
+    max-width: 92%;
+    margin: 20px auto 0;
+  }
+
+  .reasons {
+    font-size: 18px;
+    margin-bottom: 0;
+    max-width: 356px;
+  }
+
+  .reasons ul {
+    font-size: 18px;
+    margin-top:0;    
+    margin-bottom: 25px;
+  }
+
+  .reasons ul li:before {
+    font-size:50px;
+    margin-top: 10px;
+  }
+
+  .goals {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .goal {
+    padding: 16px;
+    width: 340px;
+  }
+
+  .sculpt {
+    background: url('Images/Mobile_sculpt.jpg') center center no-repeat;
+  }
+  
+  .performance{
+    background: url('Images/Mobile_performance.jpg') center center no-repeat;
+  }
+  
+  .muscle{
+    background: url('Images/Mobile_muscle_gain.jpg') center center no-repeat;
+  }
+
+  .goal .image {
+    width:100%;
+    height:auto;
+    background-position: bottom;
+    background-size: cover;
+    padding-top:55%;
+  }
+
+  .desc {
+    padding: 20px 10px;
+  }
+
+  .desc h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 26px;
+  }
+
+  .desc h4 {
+    margin-top: -5px;
+    font-size: 20px;
+  }
+
+  .goaltext {
+    line-height: 1.3;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .testimonials {
+    background:url('Images/Mobile_testimonials_banner.jpg') bottom center no-repeat;
+    background-size: cover; 
+    padding-top: calc(67% + 300px);
+  }
+
+  .testimonials-content {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top:60px;
+  }
+
+  .swiper-container {
+    width: 80%;
+  }
+
+  .sliders-content {
+    font-size: 21px;
+  }
+
+  .text {
+    line-height: 1.2;
+  }
+
+  .signup-form {
+    max-width: 470px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: Brandon Grotesque Medium, Arial, sans-serif;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .descrption {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 130%;
+    font-family: Brandon Grotesque Regular, Helvetica Neue, Arial, sans-serif;
+  }
+
+  h5 {
+    font-size: 20px;
+   }
+
+  h6 {
+    font-size: 110%;
+    line-height: 1.2;
+  }
+ 
+  a:link {
+    text-decoration: none;
+  }
+ 
+  a {
+    color: #525d71;
+  }
+ 
+  a:hover {
+    color: #FE8B36;
+  }
+
+ .button {
+    font-size: 14px;
+ }
+ 
+  .smlogo {
+    widows:80px;
+    height:15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .reasons ul li:before {
+    margin-top: 5px;
+  }
+  .testimonials {
+    background:url('Images/Mobile_testimonials_banner.jpg') bottom center no-repeat;
+    background-size: cover; 
+    padding-top: calc(67% + 300px);
+  }
+
+  .testimonials-content {
+    padding-top:40px;
+  }
+
+  .swiper-container {
+    width: 80%;
+  }
+
+  .sliders-content {
+    font-size: 20px;
+    font-family: Brandon Grotesque Regular, Helvetica Neue, Arial, sans-serif;
+  }
+
+  .text {
+    line-height: 1.4;
+  }
+
+  .signup{
+    background:url('Images/Mobile_signup_banner.jpg') center center no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+  }
+
+  h6 {
+    font-size: 18px;
+    margin: 10px auto;
+  }
+
+  .innertext {
+    font-size: 18px;
+    margin: 10px auto;
+  }
+
+  .signup-form {
+    padding-bottom: 10px;
+    max-width: 350px;
+    opacity: 0.9;
+    margin: 10px auto;
+    background-color: #fff;
+  }
+
+  .inner {
+    padding-top:20px;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+  }
+  
+  .inner-content {
+    width:85%;
+  }
+   
+  .order-form {
+    flex-direction: column;
+    margin:5px auto;
+  }
+  
+  .form-inline input {
+    margin: 10px 10px;
+    width: 250px;
+    background: #fff;
+    border: 1px solid lightgray;
+  }
+  
+  .policy {
+    color: rgb(180, 180, 180);
+    width: 70%;
+    margin: auto;
+    font-family: Brandon Grotesque Regular, Arial, sans-serif;
+  }
+  
+  .policy a { 
+    color: rgb(180, 180, 180);
+  }
+  
+  .policy a.terms {
+    text-decoration-line: underline;
+  }
+
+  .policy a:hover {
+    color: #fff;
+  }
+
+  .goal {
+    width: 100%;
+  }
+
+  .button {
+    font-size: 13px;
+  }
+}

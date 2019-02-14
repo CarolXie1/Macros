@@ -2,174 +2,312 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="content_style.css">
+    <link rel="stylesheet" type="text/css" href="smscreen_style.css">
+    <link rel="stylesheet" type="text/css" href="mdscreen_style.css">
+    <link rel="stylesheet" type="text/css" href="nav_style.css">
+    <link rel="stylesheet" type="text/css" href="footer_style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+      
     <title>Home Page</title>
   </head>
+
   <body>
-    <div class="container-fluid">
-      <div class="nav">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-          <a class="navbar-brand" href="#"><img src="Images/logo.png" style="width:160px; height:30px;" alt="MACROS"><span class="sr-only">(current)</span></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-wrapper flex">
+          <button class="navbar-toggler" type="button" id="nav-toggler">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <a class="navbar-brand" href="IndexMacros.html"><img src="Images/logo.png" alt="MACROS" class="logo"></a>   
+          <div class="navbar-content flex" id="nav-content">
+            <ul class="navbar-left flex">
+              <li class="navbar-item">
                 <a class="nav-link" href="#">MENU</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item navbar-item">
                 <a class="nav-link" href="#">PLANS</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item navbar-item">
                 <a class="nav-link" href="#">WHY US</a>
-            </li>                  
-            <li class="nav-item">
+              </li>                  
+              <li class="nav-item navbar-item">
                 <a class="nav-link" href="#">DELIVERY TIMES</a>
-            </li>
+              </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-            <a class="text-secondary" href="#">LOG IN</a>
-            <button type="signup">SIGN UP</button>
-            </form>
+            <ul class="navbar-right flex">
+              <li class="navbar-item login flex">
+                <a class="nav-link" href="#">LOG IN</a>
+              </li>
+              <li class="navbar-item">
+                <div class="signup-button button" type="signup">SIGN UP</div>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
-      <div class="banner" style="background-color:blue">
-        <div class="text text-white text-center">
-          <h1>HIGH PERFORMANCE NUTRITION.<br>DELIVERED.</h1>
-          <p>Nutritionally-optimised ready-made meals for conditioned athletes, extreme sports lovers and gym goers.</p>
-          <button type="signup">STRAT NOW</button>
-        </div>
-      </div>
+        </div> 
+      </div>  
+    </div>
 
-      <div class="section md" style="background-color:silver;">
-        <div class="text text-dark">
-          <h2>HOW IT WORKS</h2>
-          <div class="icons">
-            <div class="icon">
-              <img src="Images/Icon_select.png" alt="" style="width:100px; height:100px;">
-              <h2>SELECT</h2>
-              <p>Tailor your plan to your performance goals.</p>
-            </div>
-            <div class="icon">
-              <img src="Images/Icon_prepare.png" alt="" style="width:100px; height:100px;">
-              <h2>PREPARE</h2>
-              <p>Fresh, dietitian-approved meals, made-to-order.</p>
-            </div>
-            <div class="icon">
-              <img src="Images/Icon_deliver.png" alt="" style="width:100px; height:100px;">
-              <h2>DELIVER</h2>
-              <p>Conveniently delivered to your door each week.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="main-container">
+      <div class="main">
 
-      <div class="section box" style="background-color:tomato;">
-        <div class="text text-dark text-center">
-          <h2>WHY MACROS DELIVERS THE BEST RESULTS</h2>
-          <ul>
-            <li>
-              Macro-controlled
-            </li>
-            <li>
-              High protein
-            </li>
-            <li>
-              Good carbs
-            </li>
-          </ul>
-          <ul>
-            <li>
-              Low saturated fat
-            </li>
-            <li>
-              Low sodium
-            </li>
-            <li>
-              No additives
-            </li>
-          </ul>
-          <button type="signup">LEARN MORE</button>
+        <div class="banner">
+          <div class="banner-content flex">
+              <h1 class="bannertext">HIGH PERFORMANCE <br>NUTRITION.<br>DELIVERED.</h1>
+              <h5>Nutritionally-optimised ready-made meals for conditioned athletes, extreme sports lovers and gym goers.</h5>
+              <div class="button" type="signup" >Start now</div>
+          </div>
         </div>
-      </div>
 
-      <div class="section goalplan" style="background-color:black;">
-        <h1 class="text text-center text-dark">WHAT'S YOUR GOAL?</h1>
-        <div class="goals">
-          <div class="goal">
-            <div class="text text-center text-white">
-              <h3>SCULPT</h3>
-              <h4>Lean and defined</h4>
-              <i>Each meal contains 100g of a protein source</i>
-            </div>
-          </div>
-          <div class="goal">
-            <div class="text text-center text-white">
-              <h3>PERFORMANCE</h3>
-              <h4>Maintain peak fitness</h4>
-              <i>Each meal contains 150g of a protein source</i>
-            </div>
-          </div>
-          <div class="goal">
-            <div class="text text-center text-white">
-              <h3>MUSCLE GAIN</h3>
-              <h4>Build mass and bulk up</h4>
-              <i>Each meal contains 200g of a protein source</i>
+        <div class="section-md">
+          <div class="md-content container-1200 flex">
+            <h2>How it works</h2>
+            <div class="md-center flex">
+              <div class="icon flex">
+                <img src="Images/Icon_select.png" alt="Select Icon" >
+                <div class="title">Select</div>
+                <div class="descrption">Tailor your plan to your performance goals.</div>
+              </div>
+              <div class="icon flex">              
+                <img src="Images/Icon_prepare.png" alt="Prepare Icon" >
+                <div class="title">Prepare</div>
+                <div class="descrption">Fresh, dietitian-approved meals, made-to-order.</div>
+              </div>
+              <div class="icon flex">
+                <img src="Images/Icon_deliver.png" alt="Deliver Icon" >
+                <div class="title">Deliver</div>
+                <div class="descrption">Conveniently delivered to your door each week.</div>
+              </div>
             </div>
           </div>
         </div>
-        <button class="text text-center text-white" type="signup">PICK YOUR PLAN</button>
-      </div>
-      <div class="section testimonials" style="background-color:brown;height:400px;width:100%;">
 
-      </div>
-      <div class="section signup" style="background-color: coral;">
-        <div class="">
-          <div class="text text-center">
-            <img src="Images/logo.png" alt="" style="width:160px;height:30px;">
-            <div class="text text-center text-dark">
-              <h3>HIGH-PERFORMANCE NUTRITION.<br>DELIVERED.</h3>
-              <p>Start your no-commitment subscription today.</p>
+        <div class="section-box">
+          <div class="wrapper">
+            <div class="box-content container-1200 flex">
+              <div class="box-text flex">
+                <h2>Why Macros Delivers <br/> The Best Results</h2>
+                <div class="reasons flex">
+                  <ul>
+                    <li class="flex">
+                      Macro-controlled
+                    </li>
+                    <li class="flex">
+                      High protein
+                    </li>
+                    <li class="flex">
+                      Good carbs
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="flex">
+                      Low saturated fat
+                    </li>
+                    <li class="flex">
+                      Low sodium
+                    </li>
+                    <li class="flex">
+                      No additives
+                    </li>
+                  </ul>
+                </div>
+                <div class="button" type="signup">Learn more</div>
+              </div>
             </div>
           </div>
-          <form class=" flex">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail" placeholder="YOUR EMAIL" required> 
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" id="exampleInputNumber" placeholder="POSTCODE" required>
-            </div>
-          </form>  
-          <button type="submit" class="form-control">ORDER NOW</button>
         </div>
-        <div class="text text-center text-white">By continuing, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a></div>
+
+        <div class="section goalplan">
+          <div class="container-1200">
+            <h2>What's your goal?</h2>
+            <div class="goals flex">
+              <div class="goal flex">
+                <div class="sculpt image"></div>
+                <div class="desc flex" id="sculpt">
+                  <h3> SCULPT</h3>
+                  <h4>Lean and defined</h4>
+                  <div class="goaltext"><i>Each meal contains <br/>100g of a protein source</i></div>
+                </div>
+              </div>
+              <div class="goal flex">
+                <div class="performance image"></div>
+                <div class="desc flex" id="performance">
+                  <h3>PERFORMANCE</h3>
+                  <h4>Maintain peak fitness</h4>
+                  <div class="goaltext"><i>Each meal contains <br/>150g of a protein source</i></div>
+                </div>
+              </div>
+              <div class="goal flex">
+                <div class="muscle image"></div>
+                <div class="desc flex" id="muscle">
+                  <h3>MUSCLE GAIN</h3>
+                  <h4>Build mass and bulk up</h4>
+                  <div class="goaltext"><i>Each meal contains <br/>200g of a protein source</i></div>
+                </div>
+              </div>
+            </div>
+            <div class="button" type="signup">Pick your plan</div>
+          </div>
+        </div>
+
+        <div class="section testimonials">
+          <div class="wrapper">
+            <div class="testimonials-content flex">
+              <div class="swiper-container flex">
+                <h2>hear what people are saying</h2>
+                <div class="sliders"> 
+                <div class="arrow-prev arrow"></div>
+                  <div class="swiper-wrapper">
+                    <div class="sliders-content">
+                      <div class="text">
+                        <q>Macros meals have helped me get the conditioning I need in preparation for comps. I like not having to think about what I’m eating and just focus on training.</q><br/>
+                        <span class="cite">– Anton F, VIC</span>
+                      </div>
+                    </div>
+                    <div class="sliders-content">
+                      <div class="text">
+                        <q>Having just started at the gym, I never knew what to eat to get the results I wanted. Macros has really helped make meal prep easy for me. Now I’m eating delicious food and still hitting my fitness goals.</q><br/>
+                        <span class="cite">– Anthony G, NSW</span>
+                      </div>
+                    </div>
+                    <div class="sliders-content">
+                      <div class="text">
+                        <q>I love hitting the gym every day but was spending ages on meal prep each week. Ordering from Macros has given me my weekends back and reduced my grocery bill.</q><br/>
+                        <span class="cite">– Teigan S, Qld</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="arrow-next arrow"></div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section signup">
+          <div class="signup-form">
+            <div class="inner">
+              <img src="Images/logo.png" alt="MACROS" class="logo">
+              <div class="inner-content">
+                <h6 class="innertext">HIGH-PERFORMANCE NUTRITION.<br>DELIVERED.</h6>
+                <h6>Start your no-commitment subscription today.</h6>
+                <form class="order-form flex">
+                  <div class="form-inline">
+                    <input type="email" placeholder="YOUR EMAIL" required> 
+                  </div>
+                  <div class="form-inline">
+                    <input type="text" maxlenth="4" placeholder="POSTCODE" required>
+                  </div>
+                </form>
+              </div>
+              <div class="order-button" type="submit">Order now</div>
+            </div>  
+            <div class="policy">By continuing, you agree to our <a class="terms" href="#">Terms</a> and <a class="terms" href="#">Privacy Policy</a></div>
+          </div>
+        </div>
+
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="community">
-          <div class=""
 
+    <footer class="footer">
+      <div class="footer-content flex container">
+        <div class=“footer-left”>
+          <div class="menu flex">
+            <img src="Images/logo.png" alt="MACROS" class="smlogo">
+            <div class="menu-content flex">
+              <ul>
+                <li>
+                  <a href="#">Menu</a>
+                </li>
+                <li>
+                  <a href="#">Plans</a>
+                </li>
+                <li>
+                  <a href="#">Why us</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">Delievry times</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
+        <div class="footer-center">
+          <div class="questions flex">
+            <h4>HAVE QUESTIONS?</h4>
+            <div class="soicalicon"> 
+              <ul>
+                <li> 
+                  <a href="#"><img class="icon_email" src="Images/Icon_email.png" alt="EMAIL"></a>
+                </li>
+                <li> 
+                  <div class="footer-text">EMAIL US<br/>support@macroschef.com.au</div>
+                </li>  
+                <li>
+                  <a href="https://www.facebook.com/macros.com.au/"><img class="icon_FB" src="Images/icon_FB.png" alt="FB"></a>
+                </li>
+                <li> 
+                  <a href="https://www.instagram.com/macros.com.au/"><img class="icon_Ins" src="Images/icon_Instagram.png" alt="INS"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="community flex">
+            <h4>JOIN OUR COMMUNITY</h4>
+            <div class="community-text flex">
+              <div class="flex-item"><h5 class="footer-text">Sign up to our newsletter for healthy living tips on your fitness journey!</h5></div>
+              <div class="flex-item"><input type="email" id="exampleInputEmail" placeholder="YOUR EMAIL"></div>
+              <div class="flex-item button">Sign up</div>
+            </div>          
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom flex">
+        <div class="policy">
+          <div>©2018 Macros Chef — all rights reserved. <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></div>
+        </div>
       </div>
     </footer>
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+       
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.swiper-wrapper').slick({
+          dots: false,
+          arrows:true,
+          infinite: true,
+          speed: 1000,
+          slidesToShow: 1,
+          autoplay:true,
+          autoplaySpeed: 3000,
+          adaptiveHeight: true,
+          prevArrow:'<div class="arrow-prev arrow"></div>',
+          nextArrow:'<div class="arrow-next arrow"></div>'
+        });
+      });
 
+    $('#nav-toggler').click(function () {
+        $(this).toggleClass('navbar-icon'),
+        $('#nav-content').toggleClass('nav-collapse')
+    });
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </script>
   </body>
 </html>

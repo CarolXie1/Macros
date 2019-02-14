@@ -1,0 +1,101 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+  .banner {
+    margin-top: 67px;
+  }
+
+  .banner-content {
+    max-width: 500px;
+  }
+
+  .banner-content h1{
+    font-size: 40px;
+  }
+
+  .banner-content h5 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .box-text {
+    padding: 0 15px;
+  }
+
+  .reasons {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .reasons ul li:before {
+    content: "\B7";
+    font-size:60px;
+    line-height: 15px;
+  }
+
+  .reasons ul {
+    padding-inline-start: 5px;   
+  }
+
+  .whyus-button {
+    width: 130px;
+    font-size: 100%;
+  }
+
+  .swiper-container h2 {
+    font-size: 38px;
+    margin: 20px auto -10px;
+  }
+
+  .sliders-content {
+    font-size: 19px;
+  }
+
+  .swiper-wrapper {
+    width: 100%;
+  }
+
+  .arrow-prev:before {
+    top: -10px;
+  }
+  
+  .arrow-prev:after {
+    top: -17px;
+  }
+  
+  .arrow-next {
+    right: 0;
+  }
+  
+  .arrow-next:before {
+    top: 0px;
+  }
+  
+  .arrow-next:after{
+    top: -28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+
+  .goaltext{
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 17px;
+    padding: 15px 34px 10px;
+  }
+}
