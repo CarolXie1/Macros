@@ -1,4 +1,5 @@
 @media screen and (max-width:767px){
+
     .banner {
     background:url('Images/Mobile_top_banner.jpg') center center no-repeat;
     background-size:cover;
@@ -9,7 +10,7 @@
 
   .banner-content {
     justify-content: space-around;
-    max-width: 319px;
+    max-width: 660px;
     height: 270px;
   }
 
@@ -39,7 +40,7 @@
   }
 
   .box-content h2 {
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .box-text {
@@ -49,12 +50,13 @@
 
   .reasons {
     font-size: 18px;
-    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top:10px;
     max-width: 356px;
   }
 
   .reasons ul {
-    font-size: 18px;
+    font-size: 19px;
     margin-top:0;    
     margin-bottom: 25px;
   }
@@ -102,7 +104,7 @@
   .desc h3 {
     margin: 0;
     padding-top: 10px;
-    font-size: 26px;
+    font-size: 25px;
   }
 
   .desc h4 {
@@ -125,23 +127,56 @@
   .testimonials-content {
     justify-content: flex-start;
     flex-direction: column;
-    padding-top:60px;
+    padding-top:40px;
   }
 
-  .swiper-container {
-    width: 80%;
+  .testimonials-wrapper {
   }
 
-  .sliders-content {
+  .slider-content {
     font-size: 21px;
   }
 
   .text {
     line-height: 1.2;
+    width:90%;
+    min-height: 130px;
+  }
+
+  .order-form {
+    max-width: 330px;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .signup-form {
     max-width: 470px;
+  }
+
+  .inner {
+    padding: 40px 20px 20px;
+  }
+
+  .inner-content {
+    width: 100%;
+  }
+
+  .inner img {
+    width: 30%;
+    margin-bottom: 25px;
+  }
+
+  .innertext {
+    font-size: 20px;
+  }
+
+  .signup-form h6 {
+    font-size: 20px;
+  }
+
+  .order-button {
+    padding: 15px 20px 10px;
+    font-size: 16px;
   }
 
   h1 {
@@ -151,14 +186,15 @@
 
   h2 {
     font-size: 28px;
+    font-weight: 600;
   }
 
   .title {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .descrption {
-    font-size: 22px;
+    font-size: 21px;
   }
   
   h4 {
@@ -171,7 +207,6 @@
    }
 
   h6 {
-    font-size: 110%;
     line-height: 1.2;
   }
  
@@ -188,7 +223,7 @@
   }
 
  .button {
-    font-size: 14px;
+    font-size: 16px;
  }
  
   .smlogo {
@@ -202,17 +237,51 @@
 }
 
 @media screen and (max-width: 480px) {
+  .banner {
+    padding-top: 180px;
+    padding-bottom: 140px;
+  }
+
+  h1 {
+    font-size: 33px;
+    max-width: 360px;
+  }
+
+  .banner-content h5 {
+    max-width:275px;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .reasons {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .reasons ul li:before {
     margin-top: 5px;
   }
+
   .testimonials {
     background:url('Images/Mobile_testimonials_banner.jpg') bottom center no-repeat;
     background-size: cover; 
     padding-top: calc(67% + 300px);
   }
 
+
   .testimonials-content {
     padding-top:40px;
+  }
+
+  .testimonials-content h2 {
+  margin: 0 40px;
+  }
+
+
+  .testimonials-slider {
+    width: 100%;
+    padding: 0 20px;
+    margin:0;
   }
 
   .swiper-container {
@@ -226,6 +295,7 @@
 
   .text {
     line-height: 1.4;
+    min-height: 204px;
   }
 
   .signup{
@@ -233,29 +303,34 @@
     background-size: cover;
     padding-top: 40px;
   }
-
+  
   h6 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px auto;
   }
 
   .innertext {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px auto;
+    font-family: Brandon Grotesque Regular, Helvetica Neue, Arial, sans-serif;
   }
 
   .signup-form {
     padding-bottom: 10px;
     max-width: 350px;
-    opacity: 0.9;
     margin: 10px auto;
-    background-color: #fff;
+    background: rgba(255,255,255,0.9);
   }
 
   .inner {
-    padding-top:20px;
     margin: 0 auto 10px;
-    padding-bottom: 10px;
+    padding: 40px 20px 10px;
+    background: transparent;
+  }
+
+  .inner img {
+    width: 50%;
+    margin-bottom: 15px;
   }
   
   .inner-content {
@@ -263,20 +338,34 @@
   }
    
   .order-form {
-    flex-direction: column;
-    margin:5px auto;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    max-width: 330px;
+  }
+
+  .form-inline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   
+  .form-inline :first-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .form-inline input {
     margin: 10px 10px;
-    width: 250px;
-    background: #fff;
-    border: 1px solid lightgray;
+    width: 100%;
+    max-width:270px;
+    background:#fff;
+    border: none;
   }
-  
+
   .policy {
     color: rgb(180, 180, 180);
-    width: 70%;
+    width: 60%;
     margin: auto;
     font-family: Brandon Grotesque Regular, Arial, sans-serif;
   }
@@ -298,6 +387,6 @@
   }
 
   .button {
-    font-size: 13px;
+    font-size: 15px;
   }
 }

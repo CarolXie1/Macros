@@ -2,29 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <link rel="stylesheet" type="text/css" href="content_style.css">
     <link rel="stylesheet" type="text/css" href="smscreen_style.css">
     <link rel="stylesheet" type="text/css" href="mdscreen_style.css">
-    <link rel="stylesheet" type="text/css" href="nav_style.css">
     <link rel="stylesheet" type="text/css" href="footer_style.css">
+    <link rel="stylesheet" type="text/css" href="nav_style.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
-      
     <title>Home Page</title>
   </head>
 
   <body>
-    <div class="navbar">
+    <div class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <div class="navbar-wrapper flex">
-          <button class="navbar-toggler" type="button" id="nav-toggler">
-            <div class="navbar-toggler-icon"></div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="IndexMacros.html"><img src="Images/logo.png" alt="MACROS" class="logo"></a>   
-          <div class="navbar-content flex" id="nav-content">
+          <div class="navbar-content collapse navbar-collapse flex" id="navbarSupportedContent">
             <ul class="navbar-left flex">
               <li class="navbar-item">
                 <a class="nav-link" href="#">MENU</a>
@@ -39,7 +37,7 @@
                 <a class="nav-link" href="#">DELIVERY TIMES</a>
               </li>
             </ul>
-            <ul class="navbar-right flex">
+            <ul class="navbar-nav navbar-right flex">
               <li class="navbar-item login flex">
                 <a class="nav-link" href="#">LOG IN</a>
               </li>
@@ -48,10 +46,10 @@
               </li>
             </ul>
           </div>
-        </div> 
-      </div>  
+        </div>
+      </div>
     </div>
-
+            
     <div class="main-container">
       <div class="main">
 
@@ -130,7 +128,7 @@
                 <div class="desc flex" id="sculpt">
                   <h3> SCULPT</h3>
                   <h4>Lean and defined</h4>
-                  <div class="goaltext"><i>Each meal contains <br/>100g of a protein source</i></div>
+                  <div class="goaltext">Each meal contains <br/>100g of a protein source</div>
                 </div>
               </div>
               <div class="goal flex">
@@ -138,7 +136,7 @@
                 <div class="desc flex" id="performance">
                   <h3>PERFORMANCE</h3>
                   <h4>Maintain peak fitness</h4>
-                  <div class="goaltext"><i>Each meal contains <br/>150g of a protein source</i></div>
+                  <div class="goaltext">Each meal contains <br/>150g of a protein source</div>
                 </div>
               </div>
               <div class="goal flex">
@@ -146,7 +144,7 @@
                 <div class="desc flex" id="muscle">
                   <h3>MUSCLE GAIN</h3>
                   <h4>Build mass and bulk up</h4>
-                  <div class="goaltext"><i>Each meal contains <br/>200g of a protein source</i></div>
+                  <div class="goaltext">Each meal contains <br/>200g of a protein source</div>
                 </div>
               </div>
             </div>
@@ -156,34 +154,32 @@
 
         <div class="section testimonials">
           <div class="wrapper">
-            <div class="testimonials-content flex">
-              <div class="swiper-container flex">
+            <div class="testimonials-content content-1200 flex">
                 <h2>hear what people are saying</h2>
-                <div class="sliders"> 
-                <div class="arrow-prev arrow"></div>
-                  <div class="swiper-wrapper">
-                    <div class="sliders-content">
+                <div class="testimonials-slider"> 
+                <div class="arrow arrow-left"></div>
+                  <div class="testimonials-wrapper">
+                    <div class="slider-content slick">
                       <div class="text">
                         <q>Macros meals have helped me get the conditioning I need in preparation for comps. I like not having to think about what I’m eating and just focus on training.</q><br/>
                         <span class="cite">– Anton F, VIC</span>
                       </div>
                     </div>
-                    <div class="sliders-content">
+                    <div class="slider-content slick">
                       <div class="text">
                         <q>Having just started at the gym, I never knew what to eat to get the results I wanted. Macros has really helped make meal prep easy for me. Now I’m eating delicious food and still hitting my fitness goals.</q><br/>
                         <span class="cite">– Anthony G, NSW</span>
                       </div>
                     </div>
-                    <div class="sliders-content">
+                    <div class="slider-content slick">
                       <div class="text">
                         <q>I love hitting the gym every day but was spending ages on meal prep each week. Ordering from Macros has given me my weekends back and reduced my grocery bill.</q><br/>
                         <span class="cite">– Teigan S, Qld</span>
                       </div>
                     </div>
                   </div>
-                  <div class="arrow-next arrow"></div>
+                  <div class="arrow arrow-right"></div>
                 </div> 
-              </div>
             </div>
           </div>
         </div>
@@ -197,14 +193,14 @@
                 <h6>Start your no-commitment subscription today.</h6>
                 <form class="order-form flex">
                   <div class="form-inline">
-                    <input type="email" placeholder="YOUR EMAIL" required> 
+                    <input type="text" name="email" placeholder="YOUR EMAIL" required> 
                   </div>
                   <div class="form-inline">
-                    <input type="text" maxlenth="4" placeholder="POSTCODE" required>
+                    <input type="text" name="postcode" maxlenth="4" placeholder="POSTCODE" required>
                   </div>
                 </form>
               </div>
-              <div class="order-button" type="submit">Order now</div>
+              <div class="orderbutton"s>Order now</div>
             </div>  
             <div class="policy">By continuing, you agree to our <a class="terms" href="#">Terms</a> and <a class="terms" href="#">Privacy Policy</a></div>
           </div>
@@ -278,7 +274,7 @@
 
       <div class="footer-bottom flex">
         <div class="policy">
-          <div>©2018 Macros Chef — all rights reserved. <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></div>
+          <div>©2018 Macros Chef — all rights reserved. <a class="footer-terms" href="#">Terms & Conditions</a> | <a class="footer-terms" href="#">Privacy Policy</a></div>
         </div>
       </div>
     </footer>
@@ -286,10 +282,12 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-       
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.swiper-wrapper').slick({
+        $('.testimonials-wrapper').slick({
           dots: false,
           arrows:true,
           infinite: true,
@@ -298,15 +296,10 @@
           autoplay:true,
           autoplaySpeed: 3000,
           adaptiveHeight: true,
-          prevArrow:'<div class="arrow-prev arrow"></div>',
-          nextArrow:'<div class="arrow-next arrow"></div>'
+          prevArrow:'<div class="arrow arrow-left"></div>',
+          nextArrow:'<div class="arrow arrow-right"></div>'
         });
       });
-
-    $('#nav-toggler').click(function () {
-        $(this).toggleClass('navbar-icon'),
-        $('#nav-content').toggleClass('nav-collapse')
-    });
 
     </script>
   </body>
